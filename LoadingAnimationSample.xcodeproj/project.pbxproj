@@ -14,6 +14,7 @@
 		8C12724E1DD3582D0022871C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C12724C1DD3582D0022871C /* LaunchScreen.storyboard */; };
 		8C1272591DD3582D0022871C /* LoadingAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1272581DD3582D0022871C /* LoadingAnimationSampleTests.swift */; };
 		8C1272641DD3582D0022871C /* LoadingAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1272631DD3582D0022871C /* LoadingAnimationSampleUITests.swift */; };
+		8C1272721DD359F10022871C /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1272711DD359F10022871C /* CircleLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C12725F1DD3582D0022871C /* LoadingAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1272631DD3582D0022871C /* LoadingAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationSampleUITests.swift; sourceTree = "<group>"; };
 		8C1272651DD3582D0022871C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1272711DD359F10022871C /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8C1272431DD3582D0022871C /* AppDelegate.swift */,
 				8C1272451DD3582D0022871C /* ViewController.swift */,
+				8C1272711DD359F10022871C /* CircleLayer.swift */,
 				8C1272471DD3582D0022871C /* Main.storyboard */,
 				8C12724A1DD3582D0022871C /* Assets.xcassets */,
 				8C12724C1DD3582D0022871C /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1272461DD3582D0022871C /* ViewController.swift in Sources */,
+				8C1272721DD359F10022871C /* CircleLayer.swift in Sources */,
 				8C1272441DD3582D0022871C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
