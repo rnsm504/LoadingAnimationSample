@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					8C12723F1DD3582D0022871C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D2R737286R;
 						ProvisioningStyle = Automatic;
 					};
 					8C1272531DD3582D0022871C = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2R737286R;
 				INFOPLIST_FILE = LoadingAnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.LoadingAnimationSample;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2R737286R;
 				INFOPLIST_FILE = LoadingAnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.LoadingAnimationSample;
