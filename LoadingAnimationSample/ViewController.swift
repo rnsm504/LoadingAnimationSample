@@ -26,18 +26,10 @@ class ViewController: UIViewController {
         replicatorLayer.addSublayer(circle)
         circle.setNeedsDisplay()
         
-        replicatorLayer.instanceCount = 6
-        replicatorLayer.instanceDelay = 0.1
-        let angle = (2.0*M_PI)/30
-        replicatorLayer.instanceTransform = CATransform3DMakeRotation(-CGFloat(angle), 0.0, 0.0, 1.0);
-
         let animation = CAKeyframeAnimation(keyPath: "position")
         animation.fillMode = kCAFillModeForwards
         animation.isRemovedOnCompletion = false
-//        animation.duration = 5
-//        animation.repeatCount = .infinity
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-        
         
         let x : CGFloat = self.view.frame.size.width/2
         let y : CGFloat = self.view.frame.size.height/2
@@ -51,8 +43,6 @@ class ViewController: UIViewController {
         let blinkAnimation = CAKeyframeAnimation(keyPath: "opacity")
         blinkAnimation.fillMode = kCAFillModeForwards
         blinkAnimation.isRemovedOnCompletion = false
-//        blinkAnimation.duration = 5
-//        blinkAnimation.repeatCount = .infinity
         blinkAnimation.values = [1, 0, 1, 1, 1]
         
         let group = CAAnimationGroup()
@@ -62,6 +52,11 @@ class ViewController: UIViewController {
         
         circle.add(group, forKey: nil)
         
+        replicatorLayer.instanceCount = 6
+        replicatorLayer.instanceDelay = 0.1
+        let angle = (2.0*M_PI)/30
+        replicatorLayer.instanceTransform = CATransform3DMakeRotation(-CGFloat(angle), 0.0, 0.0, 1.0);
+
     }
 
     override func didReceiveMemoryWarning() {
